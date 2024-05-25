@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             employeeDao.fetchAllEmployees().collect{
                 val list = ArrayList(it)
                 setupListOfDataIntoRecyclerView(list,employeeDao)
+                //hello
             }
         }
     }
