@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
                 val list = ArrayList(it)
                 setupListOfDataIntoRecyclerView(list,employeeDao)
                 //hello
+                //hello two
             }
         }
     }
